@@ -1,6 +1,13 @@
-name: SankeyGeneratorEnvironment
-channels: 
--conda-forge
+# Dependencies for using mybinder
+channels:
+  - conda-forge
 dependencies:
--python =3
--obspy >=1.2.0
+  - csv
+  - python
+  - numpy
+  - pandas
+  - ipywidgets
+  - matplotlib
+  - pip:
+      - floweaver
+      - ipysankeywidget
