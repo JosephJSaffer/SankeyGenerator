@@ -2,7 +2,6 @@
 channels:
   - conda-forge
 dependencies:
-  - csv
   - python
   - numpy
   - pandas
