@@ -5,6 +5,9 @@ dependencies:
   - python
   - numpy
   - pip
+  - ipysankeywidget
+  - ipywidgets
+  - csv
   - pip:
     - nbgitpuller
     - sphinx-gallery
